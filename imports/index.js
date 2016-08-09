@@ -1,13 +1,10 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import uiRouter from 'angular-ui-router';
-
-import { name as App} from './ui/pages/app/app';
+import 'onsenui/js/onsenui';
+import 'onsenui/js/angular-onsenui';
 
 const name = 'index';
 
 export default angular.module( name, [
-   angularMeteor,
-   uiRouter,
-   App
+   angularMeteor
 ]);
